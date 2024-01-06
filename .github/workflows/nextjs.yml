@@ -48,11 +48,12 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: "14"  # Set the desired Node.js version
+          - name: Setup Node
+          uses: actions/setup-node@v4
+          with:
+          node-version: "16"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+     
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
@@ -61,6 +62,9 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
+          
+          
+
       - name: Restore cache
         uses: actions/cache@v2
         with:
