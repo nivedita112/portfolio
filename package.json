@@ -1,12 +1,10 @@
-{"homepage": "https://nivedita112.github.io/portfolio",
+{
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "predeploy": "rm -rf out",
-    "deploy": "npm run build && gh-pages -d out",
     "start": "next start",
     "lint": "next lint"
   },
