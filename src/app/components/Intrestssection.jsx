@@ -7,19 +7,19 @@ const interestsData = [
   {
     id: 1,
     title: "UI / UX Design",
-    icon: "/images/card1.svg",
+    icon: "https://raw.githubusercontent.com/nivedita112/portfolio/ddbf3fab2f0509b9c12eadbee2740662f7f503dc/public/images/card1.svg",
     description: "Passionate about crafting intuitive and visually appealing user experiences to enhance digital interactions.",
   },
   {
     id: 2,
     title: "Data Analytics",
-    icon: "/images/card2.svg",
+    icon: "https://raw.githubusercontent.com/nivedita112/portfolio/ddbf3fab2f0509b9c12eadbee2740662f7f503dc/public/images/card2.svg",
     description: " Proficient in extracting valuable insights from data, employing statistical analysis and visualization techniques to inform strategic decision-making.   ",
   },
   {
     id: 3,
     title: "Data Science",
-    icon: "/images/card3.svg",
+    icon: "https://raw.githubusercontent.com/nivedita112/portfolio/ddbf3fab2f0509b9c12eadbee2740662f7f503dc/public/images/card3.svg",
     description: "Dedicated to leveraging advanced analytics and machine learning to extract meaningful patterns from complex datasets, contributing to data-driven solutions and innovation.",
   },
 ];
