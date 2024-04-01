@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const ProjectTag = ({ name, onClick, isSelected }) => {
+const CertificateTag = ({ name, onClick, isSelected }) => {
   const buttonStyles = isSelected
     ? "text-white border-primary-500"
     : "text-[#ADB7BE] border-slate-600 hover:border-white";
@@ -23,4 +23,4 @@ const ProjectTag = ({ name, onClick, isSelected }) => {
   );
 };
 
-export default ProjectTag;
+export default CertificateTag;

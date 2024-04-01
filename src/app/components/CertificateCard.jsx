@@ -3,7 +3,7 @@ import { EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const ProjectCard = ({ imgUrl, title, description, previewUrl }) => {
+const CertificateCard = ({ imgUrl, title, description, previewUrl }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -33,4 +33,4 @@ const ProjectCard = ({ imgUrl, title, description, previewUrl }) => {
   );
 };
 
-export default ProjectCard;
+export default CertificateCard;
